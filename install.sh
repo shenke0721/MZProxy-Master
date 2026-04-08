@@ -59,7 +59,7 @@ main_menu() {
     read -p "请输入数字 [1-5]: " choice
 
     case $choice in
-        1) 
+        1)
             install_dependencies
             install_bbr
             install_xui
