@@ -57,7 +57,7 @@ main_menu() {
     echo "5. 退出"
     echo ""
     read -p "请输入数字 [1-5]: " choice
-    
+
     case $choice in
         1) 
             install_dependencies
@@ -71,7 +71,7 @@ main_menu() {
         5) exit 0 ;;
         *) echo -e "${RED}无效选择！${NC}" ;;
     esac
-    
+
     echo ""
     read -p "按回车键返回菜单..."
     main_menu
